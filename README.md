@@ -1,7 +1,6 @@
 # Versioned File Indexer
 
-**Name:** Avtansh  
-**Roll Number:** 240234  
+This is a memory-efficient command-line tool that builds a word frequency index over large text files. The file is read in fixed-size chunks so that only one buffer's worth of data sits in memory at a time, keeping memory usage constant regardless of file size. Multiple files can be indexed as separate versions and queried against each other.
 
 ## Compilation Instructions
 To compile the source code into an executable named `analyzer`, run the following command in your terminal:
